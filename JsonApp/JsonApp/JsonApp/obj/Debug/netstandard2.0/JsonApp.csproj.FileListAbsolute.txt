@@ -1,0 +1,16 @@
+D:\Studies\Xapp\JsonApp\JsonApp\JsonApp\bin\Debug\netstandard2.0\JsonApp.deps.json
+D:\Studies\Xapp\JsonApp\JsonApp\JsonApp\bin\Debug\netstandard2.0\JsonApp.dll
+D:\Studies\Xapp\JsonApp\JsonApp\JsonApp\obj\Debug\netstandard2.0\JsonApp.csprojAssemblyReference.cache
+D:\Studies\Xapp\JsonApp\JsonApp\JsonApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Studies\Xapp\JsonApp\JsonApp\JsonApp\obj\Debug\netstandard2.0\JsonApp.AssemblyInfoInputs.cache
+D:\Studies\Xapp\JsonApp\JsonApp\JsonApp\obj\Debug\netstandard2.0\JsonApp.AssemblyInfo.cs
+D:\Studies\Xapp\JsonApp\JsonApp\JsonApp\bin\Debug\netstandard2.0\CustomPages\data\buildings.json
+D:\Studies\Xapp\JsonApp\JsonApp\JsonApp\bin\Debug\netstandard2.0\ref\JsonApp.dll
+D:\Studies\Xapp\JsonApp\JsonApp\JsonApp\bin\Debug\netstandard2.0\JsonApp.pdb
+D:\Studies\Xapp\JsonApp\JsonApp\JsonApp\obj\Debug\netstandard2.0\.xaml.g.cs
+D:\Studies\Xapp\JsonApp\JsonApp\JsonApp\obj\Debug\netstandard2.0\CustomPages\listDisplay.xaml.g.cs
+D:\Studies\Xapp\JsonApp\JsonApp\JsonApp\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Studies\Xapp\JsonApp\JsonApp\JsonApp\obj\Debug\netstandard2.0\JsonApp.dll
+D:\Studies\Xapp\JsonApp\JsonApp\JsonApp\obj\Debug\netstandard2.0\ref\JsonApp.dll
+D:\Studies\Xapp\JsonApp\JsonApp\JsonApp\obj\Debug\netstandard2.0\JsonApp.pdb
+D:\Studies\Xapp\JsonApp\JsonApp\JsonApp\bin\Debug\netstandard2.0\CustomPages\data\map.jpg

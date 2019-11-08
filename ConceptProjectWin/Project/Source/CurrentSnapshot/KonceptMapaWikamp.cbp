@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="KonceptMapaWikamp" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="../../Build/CurrentSnapshot/Concept" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../../Build/CurrentSnapshot" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-march=core2" />
+			<Add option="-pedantic" />
+			<Add option="-Wextra" />
+			<Add option="-Wall" />
+			<Add option="-std=c++0x" />
+			<Add option="-pg" />
+			<Add directory="C:/IT/Dev/SDL2-2.0.10/i686-w64-mingw32/include" />
+			<Add directory="C:/IT/Dev/SDL2_ttf-2.0.15/i686-w64-mingw32/include" />
+			<Add directory="C:/IT/Dev/SDL2_image-2.0.4/i686-w64-mingw32/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-pg -lgmon" />
+			<Add option="-lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_ttf" />
+			<Add directory="C:/IT/Dev/SDL2-2.0.10/i686-w64-mingw32/lib" />
+			<Add directory="C:/IT/Dev/SDL2_ttf-2.0.15/i686-w64-mingw32/lib" />
+			<Add directory="C:/IT/Dev/SDL2_image-2.0.4/i686-w64-mingw32/lib" />
+		</Linker>
+		<Unit filename="include/button.h" />
+		<Unit filename="include/coolDataTypes.h" />
+		<Unit filename="include/image.h" />
+		<Unit filename="include/logger.h" />
+		<Unit filename="include/rende.h" />
+		<Unit filename="include/sceneObject.h" />
+		<Unit filename="include/staticDef.h" />
+		<Unit filename="include/text.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/button.cpp" />
+		<Unit filename="src/image.cpp" />
+		<Unit filename="src/logger.cpp" />
+		<Unit filename="src/rende.cpp" />
+		<Unit filename="src/sceneObject.cpp" />
+		<Unit filename="src/staticDef.cpp" />
+		<Unit filename="src/text.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

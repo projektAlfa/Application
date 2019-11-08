@@ -1,0 +1,18 @@
+Logger initialized and good
+    started: 22:13:29 29.09.2019
+--------------------------------
+22:13:29 29.09.2019 INFO: Engine initialization
+22:13:29 29.09.2019 INFO: SDL Initialized
+22:13:29 29.09.2019 INFO: TTF Initialized
+22:13:29 29.09.2019 ERROR: Couldn't initialize IMG_png ( IMG_Init() )
+22:13:29 29.09.2019 INFO: SDL Window created
+22:13:29 29.09.2019 INFO: SDL renderer created
+22:13:33 29.09.2019 INFO: SDL renderer destroyed
+22:13:33 29.09.2019 INFO: SDL window destroyed
+22:13:33 29.09.2019 INFO: SDL quitting
+22:13:33 29.09.2019 INFO: TTF quitting
+22:13:33 29.09.2019 INFO: IMG quitting
+22:13:33 29.09.2019 INFO: Engine shutdown
+--------------------------------
+Logger says goodbye
+    exited: 22:13:33 29.09.2019

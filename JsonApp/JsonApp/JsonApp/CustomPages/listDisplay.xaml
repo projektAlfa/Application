@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="JsonApp.CustomPages.listDisplay">
+    <ContentPage.Content>
+        <RelativeLayout HorizontalOptions="CenterAndExpand" VerticalOptions="Start" >
+            <SearchBar x:Name="searchBar" Placeholder="Search..." TextChanged="SearchBar_TextChanged" Focused="SearchBar_Focused" Unfocused="SearchBar_Unfocused"/>
+            <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
+                    RelativeLayout.YConstraint="{ConstraintExpression
+                        Type=RelativeToView,
+                        ElementName=searchBar,
+                        Property=Height,
+                        Factor=1,
+                        Constant=5 }"
+                    RelativeLayout.WidthConstraint="{ConstraintExpression 
+                        Type=RelativeToParent,
+                        Property=Width,
+                        Factor=1}"
+                    RelativeLayout.HeightConstraint="{ConstraintExpression 
+                        Type=RelativeToParent,
+                        Property=Height,
+                        Factor=1}" >
+                <Image x:Name="mapImg" Aspect="AspectFit"/>
+            </StackLayout>
+            <ListView x:Name="buildingsListView" HasUnevenRows="True" IsVisible="False" SeparatorVisibility="None"
+                    RelativeLayout.YConstraint="{ConstraintExpression
+                        Type=RelativeToView,
+                        ElementName=searchBar,
+                        Property=Height,
+                        Factor=1,
+                        Constant=0 }">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical" BackgroundColor="#666" Padding="5" Margin="10, 0, 10, 0">
+                                <Label Text="{Binding Id}" FontSize="18" FontAttributes="Bold" TextColor="LightPink"/>
+                                <Label Text="{Binding Name}" FontSize="12" TextColor="White"/>
+                                <BoxView HeightRequest="1" Color="#eee" VerticalOptions="FillAndExpand" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </RelativeLayout>
+    </ContentPage.Content>
+</ContentPage>
