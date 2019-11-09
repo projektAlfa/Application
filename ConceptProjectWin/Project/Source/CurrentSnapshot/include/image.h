@@ -6,13 +6,13 @@
 #include <string>
 #include <coolDataTypes.h>
 #include <sceneObject.h>
+#include <staticDef.h>
 
 class image
 {
     public:
         image(SDL_Renderer* r, std::string url,
-               vector2D p, float scale, bool c,
-               int wW, int wH);
+               vector2D p, float scale, bool c);
         ~image();
         sceneObject get();
         sceneObject sO;

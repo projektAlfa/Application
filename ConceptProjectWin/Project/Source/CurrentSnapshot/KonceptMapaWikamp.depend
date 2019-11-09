@@ -414,10 +414,10 @@
 1572126656 source:d:\it\c++\projekty\konceptmapawikamp\project\currentsnapshot\src\sceneobject.cpp
 	"sceneObject.h"
 
-1572373819 source:c:\it\projekty\conceptprojectwin\project\source\currentsnapshot\src\button.cpp
+1573205371 source:c:\it\projekty\conceptprojectwin\project\source\currentsnapshot\src\button.cpp
 	"button.h"
 
-1572374160 c:\it\projekty\conceptprojectwin\project\source\currentsnapshot\include\button.h
+1573204903 c:\it\projekty\conceptprojectwin\project\source\currentsnapshot\include\button.h
 	<SDL2/SDL.h>
 	<coolDataTypes.h>
 	<sceneObject.h>
@@ -452,7 +452,7 @@
 	<image.h>
 	<iostream>
 
-1572375860 c:\it\projekty\conceptprojectwin\project\source\currentsnapshot\include\sceneobject.h
+1573210765 c:\it\projekty\conceptprojectwin\project\source\currentsnapshot\include\sceneobject.h
 	<staticDef.h>
 	<coolDataTypes.h>
 	<SDL2/SDL.h>
@@ -460,7 +460,7 @@
 1572364472 source:c:\it\projekty\conceptprojectwin\project\source\currentsnapshot\src\logger.cpp
 	"logger.h"
 
-1572373819 source:c:\it\projekty\conceptprojectwin\project\source\currentsnapshot\src\rende.cpp
+1572870908 source:c:\it\projekty\conceptprojectwin\project\source\currentsnapshot\src\rende.cpp
 	"rende.h"
 
 1572131012 source:c:\it\projekty\conceptprojectwin\project\source\currentsnapshot\src\rendestructs.cpp
@@ -469,10 +469,10 @@
 1572273139 source:c:\it\projekty\conceptprojectwin\project\source\currentsnapshot\src\scene.cpp
 	"scene.h"
 
-1572375712 source:c:\it\projekty\conceptprojectwin\project\source\currentsnapshot\src\sceneobject.cpp
+1573213060 source:c:\it\projekty\conceptprojectwin\project\source\currentsnapshot\src\sceneobject.cpp
 	"sceneObject.h"
 
-1572383604 source:c:\it\projekty\conceptprojectwin\project\source\currentsnapshot\main.cpp
+1573213693 source:c:\it\projekty\conceptprojectwin\project\source\currentsnapshot\main.cpp
 	<SDL2/SDL.h>
 	<SDL2/SDL_ttf.h>
 	<iostream>
@@ -480,18 +480,20 @@
 	<logger.h>
 	<cmath>
 	<string>
+	<windows.h>
 
-1572374660 c:\it\projekty\conceptprojectwin\project\source\currentsnapshot\include\image.h
+1572513006 c:\it\projekty\conceptprojectwin\project\source\currentsnapshot\include\image.h
 	<SDL2/SDL.h>
 	<SDL2/SDL_image.h>
 	<string>
 	<coolDataTypes.h>
 	<sceneObject.h>
+	<staticDef.h>
 
 1572374160 c:\it\projekty\conceptprojectwin\project\source\currentsnapshot\include\cooldatatypes.h
 	<SDL2/SDL.h>
 
-1572373819 source:c:\it\projekty\conceptprojectwin\project\source\currentsnapshot\src\image.cpp
+1572513006 source:c:\it\projekty\conceptprojectwin\project\source\currentsnapshot\src\image.cpp
 	"image.h"
 
 1561870368 c:\it\dev\sdl2_image-2.0.5\i686-w64-mingw32\include\sdl2\sdl_image.h
@@ -511,14 +513,15 @@
 	"SDL2/begin_code.h"
 	"SDL2/close_code.h"
 
-1572373990 c:\it\projekty\conceptprojectwin\project\source\currentsnapshot\include\text.h
+1572869675 c:\it\projekty\conceptprojectwin\project\source\currentsnapshot\include\text.h
 	<SDL2/SDL.h>
 	<SDL2/SDL_ttf.h>
 	<coolDataTypes.h>
 	<sceneObject.h>
 	<rende.h>
+	<staticDef.h>
 
-1572364346 source:c:\it\projekty\conceptprojectwin\project\source\currentsnapshot\src\text.cpp
+1572871297 source:c:\it\projekty\conceptprojectwin\project\source\currentsnapshot\src\text.cpp
 	"text.h"
 
 1572383604 c:\it\projekty\conceptprojectwin\project\source\currentsnapshot\include\staticdef.h

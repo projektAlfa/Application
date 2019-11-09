@@ -1,36 +1,34 @@
 #include "button.h"
 
-button::button(SDL_Renderer* r, int wW, int wH)
+button::button(SDL_Renderer* r)
 {
-    constructor(r, wW, wH);
+    constructor(r);
 }
 
-button::button(SDL_Renderer* r, bool v,
-               int wW, int wH)
+button::button(SDL_Renderer* r, bool v)
 {
     visible = v;
-    constructor(r, wW, wH);
+    constructor(r);
 }
 
 button::button(SDL_Renderer* r,
-               vector2D p, vector2D s,
-               int wW, int wH)
+               vector2D p, vector2D s)
 {
     siz = s; pos = p;
-    constructor(r, wW, wH);
+    constructor(r);
 }
 
 button::button(SDL_Renderer* r,
                vector2D p, vector2D s,
-               bool v, int wW, int wH)
+               bool v)
 {
     siz = s; pos = p; visible = v;
-    constructor(r, wW, wH);
+    constructor(r);
 }
 
-void button::constructor(SDL_Renderer* r, int wW, int wH)
+void button::constructor(SDL_Renderer* r)
 {
-    vector2DInt pS = {int(wW * siz.x), int(wH * siz.y)};
+    vector2DInt pS = {int(staticDef::winDim.x * siz.x), int(staticDef::winDim.y * siz.y)};
 
     texA = SDL_CreateTexture(r, SDL_PIXELFORMAT_ABGR8888,
                       SDL_TEXTUREACCESS_TARGET,
@@ -67,8 +65,8 @@ void button::constructor(SDL_Renderer* r, int wW, int wH)
 
     SDL_SetRenderTarget(r, NULL);
 
-    sO.pos = {(pos.x - float(siz.x * 0.5)) * wW, (pos.y - float(siz.y * 0.5)) * wH};
-    sO.siz = siz;
+    sO.pos = {(pos.x - float(siz.x * 0.5)) * staticDef::winDim.x, (pos.y - float(siz.y * 0.5)) * staticDef::winDim.y};
+    sO.siz = {1., 1.};
     sO.sRect = {0, 0, pS.x, pS.y};
     sO.texSiz = {pS.x, pS.y};
 }
@@ -95,7 +93,7 @@ void button::getState(vector2D mPos, bool &clk, bool &hov)
 {
     hov = false;
 
-    if((mPos.x > pos.x - siz.x && mPos.x > pos.x + siz.x) && (mPos.y > pos.y - siz.y && mPos.y > pos.y + siz.y) )
+    if((mPos.x > pos.x - siz.x*0.5 && mPos.x < pos.x + siz.x*0.5) && (mPos.y > pos.y - siz.y*0.5 && mPos.y < pos.y + siz.y*0.5) )
         hov = true;
 
     clk = hov && clk;

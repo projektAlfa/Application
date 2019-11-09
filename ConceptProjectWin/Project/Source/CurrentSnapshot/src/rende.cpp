@@ -100,7 +100,8 @@ void rende::consumeRenderStack()
         sceneObject currentObjToDraw = renderStack.top();
 
         SDL_Rect dRect = {int(currentObjToDraw.pos.x),    int(currentObjToDraw.pos.y),
-                          int(currentObjToDraw.texSiz.x), int(currentObjToDraw.texSiz.y)};
+                          int(currentObjToDraw.texSiz.x * currentObjToDraw.siz.x),
+                          int(currentObjToDraw.texSiz.y * currentObjToDraw.siz.y)};
 
         SDL_RenderCopy(rnds, currentObjToDraw.texPtr, &currentObjToDraw.sRect, &dRect);
 
@@ -134,5 +135,12 @@ void rende::pushRenderStack(sceneObject toStack)
 mouseData rende::getTouch()
 {
     mouseData m;
+    int x, y;
+    if(SDL_GetMouseState(&x, &y) & SDL_BUTTON(SDL_BUTTON_LEFT))
+        m.touch = true;
+    else
+        m.touch = false;
+    m.pos.x = x / float(staticDef::winDim.x);
+    m.pos.y = y / float(staticDef::winDim.y);
     return m;
 }

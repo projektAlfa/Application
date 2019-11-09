@@ -9,19 +9,16 @@
 class button
 {
     public:
-        button(SDL_Renderer* r,
-               int wW, int wH);
+        button(SDL_Renderer* r);
 
-        button(SDL_Renderer* r, bool v,
-               int wW, int wH);
+        button(SDL_Renderer* r, bool v);
 
         button(SDL_Renderer* r,
-               vector2D p, vector2D s,
-               int wW, int wH);
+               vector2D p, vector2D s);
 
         button(SDL_Renderer* r,
                vector2D p, vector2D s,
-               bool v, int wW, int wH);
+               bool v);
 
         ~button();
 
@@ -30,7 +27,7 @@ class button
         void getState(vector2D mPos, bool &clk, bool &hov);
 
     private:
-        void            constructor(SDL_Renderer* r, int wW, int wH);
+        void            constructor(SDL_Renderer* r);
 
         SDL_Texture*    texA        = NULL;
         SDL_Texture*    texB        = NULL;

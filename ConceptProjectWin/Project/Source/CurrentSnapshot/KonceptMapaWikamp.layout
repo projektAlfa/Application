@@ -2,64 +2,84 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Release" />
-	<File name="src\logger.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="-2" zoom_2="0">
+	<File name="include\text.h" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="759" topLine="4" />
+			<Cursor1 position="404" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="include\button.h" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+	<File name="src\logger.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="-2" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1338" topLine="18" />
+			<Cursor1 position="759" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="include\image.h" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="include\staticDef.h" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="411" topLine="0" />
+			<Cursor1 position="128" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="include\logger.h" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
+	<File name="include\logger.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="421" topLine="0" />
+			<Cursor1 position="114" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="include\coolDataTypes.h" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
+	<File name="src\button.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="287" topLine="0" />
+			<Cursor1 position="1584" topLine="59" />
 		</Cursor>
 	</File>
-	<File name="src\sceneObject.cpp" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+	<File name="src\image.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="916" topLine="0" />
+			<Cursor1 position="591" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src\rende.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="-2" zoom_2="0">
+	<File name="include\sceneObject.h" open="1" top="0" tabpos="15" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="2774" topLine="0" />
+			<Cursor1 position="105" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src\text.cpp" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+	<File name="src\rende.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="167" topLine="0" />
+			<Cursor1 position="3736" topLine="106" />
 		</Cursor>
 	</File>
-	<File name="main.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="-2" zoom_2="0">
+	<File name="src\sceneObject.cpp" open="1" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="305" topLine="27" />
+			<Cursor1 position="206" topLine="1" />
 		</Cursor>
 	</File>
-	<File name="src\image.cpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
+	<File name="src\text.cpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="22" topLine="0" />
+			<Cursor1 position="895" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src\button.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="-2" zoom_2="0">
+	<File name="src\staticDef.cpp" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="107" topLine="0" />
+			<Cursor1 position="65" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="include\rende.h" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+	<File name="include\button.h" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1623" topLine="19" />
+			<Cursor1 position="1204" topLine="1" />
+		</Cursor>
+	</File>
+	<File name="include\image.h" open="1" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="385" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\rende.h" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="717" topLine="5" />
+		</Cursor>
+	</File>
+	<File name="include\coolDataTypes.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="285" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="main.cpp" open="1" top="1" tabpos="16" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6801" topLine="189" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

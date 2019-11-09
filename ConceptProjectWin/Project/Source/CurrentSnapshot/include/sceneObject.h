@@ -9,9 +9,11 @@ struct sceneObject
 {
         void moveG(vector2D v, bool c);
         void moveR(vector2D v);
+        vector2D getPG();
 
         void scaleG(float s);
         void scaleR(float s);
+        void scaleRC(float s);
         void scaleG2(vector2D s);
         void scaleR2(vector2D s);
 
