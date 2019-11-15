@@ -596,23 +596,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mateusz\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\julas\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Studies\\Xapp\\JsonApp\\JsonApp\\JsonApp\\JsonApp.csproj",
+      "projectUniqueName": "D:\\Dokumenty\\Studia\\3_semestr\\Projekt\\Application\\JsonApp\\JsonApp\\JsonApp\\JsonApp.csproj",
       "projectName": "JsonApp",
-      "projectPath": "D:\\Studies\\Xapp\\JsonApp\\JsonApp\\JsonApp\\JsonApp.csproj",
-      "packagesPath": "C:\\Users\\Mateusz\\.nuget\\packages\\",
-      "outputPath": "D:\\Studies\\Xapp\\JsonApp\\JsonApp\\JsonApp\\obj\\",
+      "projectPath": "D:\\Dokumenty\\Studia\\3_semestr\\Projekt\\Application\\JsonApp\\JsonApp\\JsonApp\\JsonApp.csproj",
+      "packagesPath": "C:\\Users\\julas\\.nuget\\packages\\",
+      "outputPath": "D:\\Dokumenty\\Studia\\3_semestr\\Projekt\\Application\\JsonApp\\JsonApp\\JsonApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Mateusz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\julas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],

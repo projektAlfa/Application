@@ -6,7 +6,8 @@
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <application android:label="JsonApp.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon" android:debuggable="true">
-    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="JsonApp" android:theme="@style/MainTheme" android:name="md510980d30aaeb32fbca7906e4e326b1c6.MainActivity">
+    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="JsonApp" android:theme="@style/MainTheme" android:name="md510980d30aaeb32fbca7906e4e326b1c6.MainActivity" />
+    <activity android:noHistory="true" android:theme="@style/Theme.Splash" android:name="md510980d30aaeb32fbca7906e4e326b1c6.SplashScreen">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
