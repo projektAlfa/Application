@@ -1075,24 +1075,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mateusz\\.nuget\\packages\\": {},
+    "C:\\Users\\julas\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Studies\\Xapp\\JsonApp\\JsonApp\\JsonApp.iOS\\JsonApp.iOS.csproj",
+      "projectUniqueName": "D:\\Dokumenty\\Studia\\3_semestr\\Projekt\\Application\\JsonApp\\JsonApp\\JsonApp.iOS\\JsonApp.iOS.csproj",
       "projectName": "JsonApp.iOS",
-      "projectPath": "D:\\Studies\\Xapp\\JsonApp\\JsonApp\\JsonApp.iOS\\JsonApp.iOS.csproj",
-      "packagesPath": "C:\\Users\\Mateusz\\.nuget\\packages\\",
-      "outputPath": "D:\\Studies\\Xapp\\JsonApp\\JsonApp\\JsonApp.iOS\\obj\\",
+      "projectPath": "D:\\Dokumenty\\Studia\\3_semestr\\Projekt\\Application\\JsonApp\\JsonApp\\JsonApp.iOS\\JsonApp.iOS.csproj",
+      "packagesPath": "C:\\Users\\julas\\.nuget\\packages\\",
+      "outputPath": "D:\\Dokumenty\\Studia\\3_semestr\\Projekt\\Application\\JsonApp\\JsonApp\\JsonApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Mateusz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\julas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1106,8 +1106,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\Studies\\Xapp\\JsonApp\\JsonApp\\JsonApp\\JsonApp.csproj": {
-              "projectPath": "D:\\Studies\\Xapp\\JsonApp\\JsonApp\\JsonApp\\JsonApp.csproj"
+            "D:\\Dokumenty\\Studia\\3_semestr\\Projekt\\Application\\JsonApp\\JsonApp\\JsonApp\\JsonApp.csproj": {
+              "projectPath": "D:\\Dokumenty\\Studia\\3_semestr\\Projekt\\Application\\JsonApp\\JsonApp\\JsonApp\\JsonApp.csproj"
             }
           }
         }

@@ -1951,24 +1951,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mateusz\\.nuget\\packages\\": {},
+    "C:\\Users\\julas\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Studies\\Xapp\\JsonApp\\JsonApp\\JsonApp.Android\\JsonApp.Android.csproj",
+      "projectUniqueName": "D:\\Dokumenty\\Studia\\3_semestr\\Projekt\\Application\\JsonApp\\JsonApp\\JsonApp.Android\\JsonApp.Android.csproj",
       "projectName": "JsonApp.Android",
-      "projectPath": "D:\\Studies\\Xapp\\JsonApp\\JsonApp\\JsonApp.Android\\JsonApp.Android.csproj",
-      "packagesPath": "C:\\Users\\Mateusz\\.nuget\\packages\\",
-      "outputPath": "D:\\Studies\\Xapp\\JsonApp\\JsonApp\\JsonApp.Android\\obj\\",
+      "projectPath": "D:\\Dokumenty\\Studia\\3_semestr\\Projekt\\Application\\JsonApp\\JsonApp\\JsonApp.Android\\JsonApp.Android.csproj",
+      "packagesPath": "C:\\Users\\julas\\.nuget\\packages\\",
+      "outputPath": "D:\\Dokumenty\\Studia\\3_semestr\\Projekt\\Application\\JsonApp\\JsonApp\\JsonApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Mateusz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\julas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1982,8 +1982,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "D:\\Studies\\Xapp\\JsonApp\\JsonApp\\JsonApp\\JsonApp.csproj": {
-              "projectPath": "D:\\Studies\\Xapp\\JsonApp\\JsonApp\\JsonApp\\JsonApp.csproj"
+            "D:\\Dokumenty\\Studia\\3_semestr\\Projekt\\Application\\JsonApp\\JsonApp\\JsonApp\\JsonApp.csproj": {
+              "projectPath": "D:\\Dokumenty\\Studia\\3_semestr\\Projekt\\Application\\JsonApp\\JsonApp\\JsonApp\\JsonApp.csproj"
             }
           }
         }
