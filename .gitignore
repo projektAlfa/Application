@@ -1,8 +1,8 @@
 Json/.vs/**/*.*
 Json/.vs/*.*
-Json/.vs/JsonApp/v16/*.*
-Json/.vs/JsonApp/v16/Server/**/*.*
-Json/.vs/JsonApp/v16/Server/*.*
+JsonApp/.vs/JsonApp/v16/*.*
+JsonApp/.vs/JsonApp/v16/Server/**/*.*
+JsonApp/.vs/JsonApp/v16/Server/*.*
 Json/.vs/*.*
 Json/.vs/JsonApp/**/*.*
 Json/.vs/JsonApp/*.*
@@ -19,6 +19,7 @@ JsonApp/JsonApp/JsonApp/obj/*.*
 JsonApp/JsonApp/JsonApp.Android/bin/**/*.*
 JsonApp/JsonApp/JsonApp.Android/bin/*.*
 JsonApp/JsonApp/JsonApp.Android/JsonApp.Android.csproj
+JsonApp/JsonApp/JsonApp.Android/JsonApp.Android.csproj.user
 JsonApp/JsonApp/JsonApp.Android/obj/**/*.*
 JsonApp/JsonApp/JsonApp.Android/obj/*.*
 JsonApp/JsonApp/JsonApp.Android/Properties/**/*.*
