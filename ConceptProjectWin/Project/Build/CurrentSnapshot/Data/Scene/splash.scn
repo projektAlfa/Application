@@ -1,0 +1,8 @@
+image
+src ./Data/Image/logotype.bmp
+h 120
+w 76
+centered true
+x 50%
+y 50%
+Eimage
