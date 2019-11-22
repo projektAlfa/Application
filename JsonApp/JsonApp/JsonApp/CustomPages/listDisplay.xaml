@@ -7,7 +7,12 @@
              x:Class="JsonApp.CustomPages.listDisplay">
     <ContentPage.Content>
         <RelativeLayout HorizontalOptions="CenterAndExpand" VerticalOptions="Start" >
-            <SearchBar x:Name="searchBar" Placeholder="Search..." TextChanged="SearchBar_TextChanged" Focused="SearchBar_Focused" Unfocused="SearchBar_Unfocused"/>
+            <SearchBar x:Name="searchBar" Placeholder="Search..." TextChanged="SearchBar_TextChanged" Focused="SearchBar_Focused"  Unfocused="SearchBar_Unfocused"
+                RelativeLayout.WidthConstraint="{ConstraintExpression 
+                        Type=RelativeToParent,
+                        Property=Width,
+                        Factor=1}"
+            />
             <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
                     RelativeLayout.YConstraint="{ConstraintExpression
                         Type=RelativeToView,

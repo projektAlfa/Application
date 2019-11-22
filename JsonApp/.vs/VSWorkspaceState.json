@@ -2,11 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\JsonApp",
-    "\\JsonApp\\JsonApp.Android",
-    "\\JsonApp\\JsonApp.Android\\Resources",
-    "\\JsonApp\\JsonApp.Android\\Resources\\mipmap-anydpi-v26",
-    "\\JsonApp\\JsonApp.Android\\Resources\\values"
+    "\\JsonApp\\JsonApp",
+    "\\JsonApp\\JsonApp.iOS",
+    "\\JsonApp\\JsonApp\\CustomPages"
   ],
-  "SelectedNode": "\\JsonApp\\JsonApp.Android\\SplashScreen.cs",
+  "SelectedNode": "\\JsonApp.sln",
   "PreviewInSolutionExplorer": false
 }

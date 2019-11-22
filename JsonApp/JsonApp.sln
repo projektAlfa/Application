@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonApp.Android", "JsonApp\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonApp.iOS", "JsonApp\JsonApp.iOS\JsonApp.iOS.csproj", "{F6D2ECBE-66DF-46AE-8994-0AFEDC977EFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonApp", "JsonApp\JsonApp\JsonApp.csproj", "{D26C84FE-B936-4910-9CD9-60AE75291ACA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsonApp", "JsonApp\JsonApp\JsonApp.csproj", "{D26C84FE-B936-4910-9CD9-60AE75291ACA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

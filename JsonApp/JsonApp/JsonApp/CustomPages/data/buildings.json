@@ -1,25 +1,86 @@
-﻿[
-
-{
-	"id": "B9",
-	"name": "Lodex",
-	"campus": "B",
-	"x": "120",
-	"y": "120" 
-},
-{
-	"id": "B19",
-	"name": "Centrum Technologii Informatycznych",
-	"campus": "B",
-	"x": "100",
-	"y": "125" 
-},
-{
-	"id": "A16",
-	"name": "Centrum Kształcenia Międzynarodowego IFE",
-	"campus": "A",
-	"x": "34",
-	"y": "12"
-}
+﻿[{
+    "id": "B9",
+    "name": "Lodex",
+    "campus": "B",
+    "x": "120",
+    "y": "120"
+  },
+  {
+    "id": "B19",
+    "name": "Centrum Technologii Informatycznych",
+    "campus": "B",
+    "x": "100",
+    "y": "125"
+  },
+  {
+    "id": "B14",
+    "name": "Instytut Fizyki",
+    "campus": "B",
+    "x": "120",
+    "y": "120"
+  },
+  {
+    "id": "B9",
+    "name": "Lodex",
+    "campus": "B",
+    "x": "120",
+    "y": "120"
+  },
+  {
+    "id": "B9",
+    "name": "Lodex",
+    "campus": "B",
+    "x": "120",
+    "y": "120"
+  },
+  {
+    "id": "B9",
+    "name": "Lodex",
+    "campus": "B",
+    "x": "120",
+    "y": "120"
+  },
+  {
+    "id": "B9",
+    "name": "Lodex",
+    "campus": "B",
+    "x": "120",
+    "y": "120"
+  },
+  {
+    "id": "B9",
+    "name": "Lodex",
+    "campus": "B",
+    "x": "120",
+    "y": "120"
+  },
+  {
+    "id": "B9",
+    "name": "Lodex",
+    "campus": "B",
+    "x": "120",
+    "y": "120"
+  },
+  {
+    "id": "B9",
+    "name": "Lodex",
+    "campus": "B",
+    "x": "120",
+    "y": "120"
+  },
+  {
+    "id": "B9",
+    "name": "Lodex",
+    "campus": "B",
+    "x": "120",
+    "y": "120"
+  },
+  {
+    "id": "A16",
+    "name": "Centrum Kształcenia Międzynarodowego IFE",
+    "campus": "A",
+    "x": "34",
+    "y": "12"
+  }
 
 ]
